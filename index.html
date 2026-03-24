@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的个人网站</title>
+    <meta
+      name="description"
+      content="这是一个简洁现代的个人网站模板，可用于展示个人简介、项目作品与联系方式。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="#home">YourName</a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="打开导航菜单">☰</button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#projects">项目</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#contact">联系</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <p class="eyebrow">你好，我是</p>
+        <h1>一名热爱创造的开发者</h1>
+        <p class="hero-text">
+          我专注于构建实用且优雅的 Web 产品。这个页面可以作为你的个人主页，快速展示你的能力与作品。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">查看项目</a>
+          <a class="btn ghost" href="#contact">联系我</a>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>关于我</h2>
+        <p>
+          你可以在这里介绍自己的背景、兴趣、职业方向，以及你最擅长解决的问题。建议控制在 3~5
+          句话，让访客快速了解你。
+        </p>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>精选项目</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>项目 A：作品集网站</h3>
+            <p>使用 HTML/CSS/JS 构建的响应式页面，支持移动端适配。</p>
+            <a href="#" aria-label="查看项目 A">查看详情 →</a>
+          </article>
+          <article class="card">
+            <h3>项目 B：任务管理工具</h3>
+            <p>支持任务创建、过滤和状态追踪，提升日常效率。</p>
+            <a href="#" aria-label="查看项目 B">查看详情 →</a>
+          </article>
+          <article class="card">
+            <h3>项目 C：数据可视化面板</h3>
+            <p>以直观图表呈现业务指标，帮助快速决策。</p>
+            <a href="#" aria-label="查看项目 C">查看详情 →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2>技能栈</h2>
+        <ul class="skills">
+          <li>前端：HTML、CSS、JavaScript、React</li>
+          <li>后端：Node.js、Python</li>
+          <li>工具：Git、Docker、Figma</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>联系我</h2>
+        <p>欢迎通过以下方式与我沟通合作机会：</p>
+        <ul class="contact-list">
+          <li>邮箱：you@example.com</li>
+          <li>GitHub：github.com/yourname</li>
+          <li>微信：your_wechat_id</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> YourName. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
